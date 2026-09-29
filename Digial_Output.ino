@@ -20,7 +20,15 @@ Date:
 uint8_t const LED[] = {32, 33, 25, 26, 27, 14};
 uint8_t const numb_pins = sizeof(LED)/sizeof(LED[0]);
 // There are 6 total number of elements from array[0] to array[5]
-// 
+// sizeof(LED) gets the total amount of memory occupied by the array
+// sizeof(LED[0]) gets the memory occupied by one element
+
+// Gina calculate niya ang total number of elements sa sulod sang array
+// by dividing the total size (bit) sang array by the sieze (bit) sang
+// isa ka element.
+
+// Literal 6 bits / 1 bit = 6
+// Kung mag add ta 2 ka PINS, 8 bits / 1 bit = 8
 
 const uint8_t SW1 = 18;
 const uint8_t SW2 = 19;
