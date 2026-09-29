@@ -19,7 +19,8 @@ Date:
 // GPIOS
 uint8_t const LED[] = {32, 33, 25, 26, 27, 14};
 uint8_t const numb_pins = sizeof(LED)/sizeof(LED[0]);
-// int count = 0;
+// There are 6 total number of elements from array[0] to array[5]
+// 
 
 const uint8_t SW1 = 18;
 const uint8_t SW2 = 19;
